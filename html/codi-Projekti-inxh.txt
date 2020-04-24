@@ -1,0 +1,337 @@
+//Pjesa e html
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name ="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <title>Dokumenti4</title>
+       
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="header1">
+            <img class="foto1"src="loogo1.jpg" alt="logo e 3"/>
+            <p class="ft">POWERFUL PACKED SERVICE</p>
+            <h1 class="st">Better Solution At </br> Your Fingertips</h1>
+            <button class="button1">Contact Us</button>
+            <button class="button2">Learn More</button>
+        </div>
+
+        <h4 class="head">Smart Solution For Your Business</h4>
+
+            <div class ="topics">
+            <div class="box">
+                <img src="images1.png"/>
+                <h4>Market Research</h4>
+                <p>System gatheting and  interpretion of information about 
+                individuals or organisation<p>
+            </div>
+            <div class="box">
+               <img src="images2.png"/>
+                <h4>Strategic consulting</h4>
+                <p>A Strategy consultion is primary </br> general towards providing unknowed 
+                </br>Stratgic advice to a company's board</p>
+            </div >
+            <div class="box" >
+                <img src="images3.png"/>
+                <h4>Sales Service</h4>
+                <p> Sales Menagment Service help </br>clients improve that sales 
+                </br>organization's ellectiveness </p>
+            </div>
+        </div>
+
+        <div class="header2">
+            <img class= "foto2"src="logo6.jpg" alt="logo e 3"/>
+            <p class="at"> <i class='far'>&#xf144;</i></br> WE ALWAYS STAY WITH OUR CLIENTS AND RESPECT THEIR</br>BUSINESS</p>
+        </div>
+
+        <div class="ikona">
+            <div class="icons">
+                <img src="icon1.png"/>
+                <h4>20</h4>
+                <p>Year of experience</p>
+            </div>
+            <div class="icons">
+                <img src="icon2.png"/>
+                <h4>>5000</h4>
+                <p>Sucessful Projects</p>
+            </div>
+            <div class="icons">
+                <img src="icon 3.png"/>
+                <h4>>500</h4>
+                <p>Team Members</p>
+            </div>
+            <div class="icons">
+                <img src="icon4.webp"/>
+                <h4>10000</h4>
+                <p>Happy Client</p>
+            </div>                      
+        </div>
+
+        <div class="header3">
+            <img class= "foto3"src="photo1.jpg" alt="logo e 3" align="left" />
+            
+            <h4>Get Conected and </br> Take control of Your </br>Bussines Success</h4>
+            <li>Number of Buyers</li></br>
+            <li>Acheve all New Sales</li></br>
+            <li>Improve your Business</li></br>
+            <li>Business Growth </li>
+            <button class="buton3">Learn More</button>
+        </div>
+
+        <div class="text">
+            <div class="text1">
+            <h2 text-align: center; > Executive Team</h2>
+            <p text-align: center;>How we work</p>
+            </div>
+
+            <div class="profil">
+                <img src="photo1.png">
+                <h5>Adrian Carey</h5>
+                <p>Design/Web Developer</p>
+                <p>
+                    <i style="font-size:24px" class="fa">&#xf09a;</i>
+                    <i style="font-size:24px" class="fa">&#xf099;</i>
+                    <i style="font-size:24px" class="fa">&#xf0d5;</i>
+                </p>
+            </div>
+            <div class="profil">
+                <img src="photo1.png">
+                <h5>Susan Crossmann</h5>
+                <p>Sales/ Marketing Manager</p>
+                <p>
+                    <i style="font-size:24px" class="fa">&#xf09a;</i>
+                    <i style="font-size:24px" class="fa">&#xf099;</i>
+                    <i style="font-size:24px" class="fa">&#xf0d5;</i>
+                </p>
+            </div>
+            <div class="profil">
+                <img src="photo1.png">
+                <h5>Stephen Jenkin</h5>
+                <p>Co-Feunder/Designer</p>
+                <p>
+                    <i style="font-size:24px" class="fa">&#xf09a;</i>
+                    <i style="font-size:24px" class="fa">&#xf099;</i>
+                    <i style="font-size:24px" class="fa">&#xf0d5;</i>
+                </p>
+            </div>
+            <div class="profil">
+                <img src="photo1.png">
+                <h5>Jennifer Bawerman</h5>
+                <p>Designer/Project Manager</p>
+                <p>
+                    <i style="font-size:24px" class="fa">&#xf09a;</i>
+                    <i style="font-size:24px" class="fa">&#xf099;</i>
+                    <i style="font-size:24px" class="fa">&#xf0d5;</i>
+                </p>
+            </div>
+        </div>
+        
+
+        <div class="header4" > 
+            <img class= "foto4"src="photo2.jpg" alt="logo e 3"/>
+        </div>
+    </body>
+</html>
+
+
+
+
+//pjesa e css
+*{ margin:0; padding:0; 
+}
+
+.header{
+  position: relative;
+  margin: 0 auto;}
+
+.foto1{
+  position: relative;
+  width: 1349px;
+  height:349px;
+  margin: 0 auto;}
+
+.ft{
+  color:white;
+  position: absolute;
+  top: 19%;
+  width: 100%;
+  text-align: center;}
+
+.st{
+  color:white;
+  position: absolute;
+  top: 22%;
+  width: 100%;
+  text-align: center;
+  display: flexbox;
+}
+.button1{
+  position: absolute;
+  top: 35%;
+  left: 43%;
+  background-color:whitesmoke;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.button2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  background-color:whitesmoke;
+  font-size: 10px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.head{
+  text-align: center;
+  height: 50px;
+  padding-top: 30px;
+}
+.box img{
+  width: 60px;
+  height: 60px;
+  margin-left: 90px;
+}
+.box{
+  width: 250px;
+  height: 200px;
+}
+.topics{
+position: relative;
+margin-left: 240px;
+height: 300px;
+width: 100%;
+}
+.topics .box{
+
+  float: left;
+  position: static;
+  margin: 20px;
+}
+.box h4{
+  margin-top: 10px;
+  text-align: center;
+}
+.side p{
+  text-align: center;
+}
+.foto2{
+  position: relative;
+  width: 1349px;
+  height:200px;
+  margin: 0 auto;
+}
+.at{
+  color: white;
+  position: absolute;
+  top: 121%;
+  width: 100%;
+  text-align: center;
+padding: 30px 50px 20px 50px;
+}
+.far{width: 150px;height: 50px;
+  padding: 50px 48px 10px 300px ;
+  margin: 0 auto;
+  position: relative; 
+}
+.icons img{
+  width: 60px;
+  height: 60px;
+  margin: 30px 98px 30px 60px;
+}
+.icons{
+  width: 150px;
+  height: 200px;
+}
+.ikona{
+position: relative;
+margin-left: 240px;
+height: 300px;
+width: 100%;
+}
+.ikona .icons{
+
+  float: left;
+  position: static;
+  margin: 20px;
+}
+.icons h4{
+  margin-top: 10px;
+  text-align: center;
+}
+.icons p{
+  text-align: center;
+}
+}.header3{
+  width: 1350px ;
+  height: 252px;
+  background-color:rgb(218, 214, 214);s
+}
+.foto3{
+  position: relative;
+  width: 300px;
+  height:200px;
+  margin: 30px 200px 20px 300px;
+}
+.buton3{
+  position: absolute;
+  top: 225%;
+  left: 62%;
+  background-color:rgb(185, 137, 34);
+  font-size: 10px;
+  padding: 7px 17px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
+.text{
+  position: relative;
+  width: 1349px;
+  height: 600px;
+  text-align: center;
+  padding: 70px 40px;
+}
+.text1{
+  margin: 50px 550px 30px 30px;
+}
+.profil img{
+  width: 100px;
+  height: 100px;
+  margin: 30px 98px 30px 60px;
+}
+.profil{
+  width: 150px;
+  height: 200px;
+}
+.text{
+position: relative;
+margin-left: 240px;
+height: 300px;
+width: 100%;
+}
+.text .profil{
+  float: left;
+  position: static;
+  margin: 20px;
+}
+.profil h4{
+  margin-top: 30px;
+  text-align: center;
+}
+.profil p{
+  text-align: center;
+}
+.foto4{
+  position: relative;
+  width: 1349px;
+  height:150px;
+  margin: 0 auto;
+}
